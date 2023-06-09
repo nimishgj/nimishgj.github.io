@@ -1,0 +1,448 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.808);
+  font-family: 'Source Sans Pro',sans-serif;
+  scroll-behavior: smooth;
+  background-color: rgb(24, 20, 36);
+  transition: 1s;
+}
+
+nav {
+  background-color: rgb(15, 15, 21);
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2vw;
+  position: fixed;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  padding: 2.5vh 2vh;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo div {
+  display: flex;
+  align-items: center;
+  transition: 0.6s;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  padding: 0 2vw;
+  transition: 0.6s;
+}
+
+nav ul li:hover,.logo div:hover{
+    cursor: pointer;
+    color:rgb(35, 35, 139);
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(24, 20, 36);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image:url('/Screenshot.png');
+   
+}
+.projectbtn {
+  padding: 1vh 2vw;
+  font-size: 1.6vw;
+  background-color: rgb(19, 34, 88);
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 4vh;
+  box-shadow: 0 0 1vh rgb(19, 34, 88);
+  transition: 0.6s;
+}
+
+.projectbtn:hover {
+  padding: 1.5vh 2.5vw;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 5vw;
+  font-weight: 600;
+  letter-spacing: 0.5vw;
+}
+
+.text {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.connect img {
+  width: 3vw;
+  height: 3vw;
+  background-color:transparent;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  gap: 1vh;
+  padding: 1vh;
+  background-color: rgb(35, 34, 38);
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.head {
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+.about,
+.project,
+.resume {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(24, 20, 36);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project {
+  height: fit-content;
+}
+
+.line {
+  margin-top: 3vh;
+  margin-left: 1.5vw;
+  width: 4vw;
+  height: 1.5vh;
+  background-color: rgb(21, 21, 123);
+  border-radius: 15px;
+}
+
+.smalltxt {
+  margin-top: 2vh;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.aboutbio {
+  margin-top: 8vh;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left {
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  overflow-y: scroll;
+  font-size: 1.5vw;
+}
+
+.skills {
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+
+.sklname {
+  font-size: 3vw;
+}
+
+.element {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.sub {
+  background-color: rgb(19, 34, 88);
+  font-size: 1.2vw;
+  padding: 1vh 1vw;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.card {
+  padding: 2vh 0;
+  background-color: rgb(27, 23, 39);
+  margin-top: 5vh;
+  height: 60vh;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.ig {
+  margin-left: 7vw;
+}
+
+.card img {
+  width: 40vw;
+}
+
+.title {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.explain {
+  margin-top: 5vh;
+  font-size: 1.4vw;
+}
+
+.link {
+  margin-top: 3vh;
+  letter-spacing: 0.2vw;
+  font-size: 1.5vw;
+  padding: 1vh 1.5vw;
+  width: fit-content;
+  background-color: rgb(19, 34, 88);
+  border-radius: 5px;
+  box-shadow: 0 0 1vh rgb(19, 34, 88);
+}
+
+.info {
+  width: 40vw;
+  margin-left: 10vw;
+}
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(32, 60, 64);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.resume {
+  height: fit-content;
+  padding-bottom: 5vh;
+}
+
+.border {
+  margin-top: 5vh;
+  width: 90vw;
+  height: fit-content;
+  border: 1px solid white;
+}
+
+.resumeName {
+  padding: 5vh 5vw;
+  border-bottom: 1px solid white;
+}
+
+.rname {
+  font-size: 3vw;
+}
+
+.rbio {
+  margin-top: 3vh;
+  font-size: 1.2vw;
+}
+
+.resume{
+    padding-top: 5vh;
+    background-color:rgb(24, 20, 36);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.resume-intro{
+    display: flex;
+    flex-direction:row;
+    padding:  1.3vw;
+    border-bottom: 0.2px solid white;
+    justify-content: space-between;
+}
+
+
+
+.profile-name{
+    font-size: 2vw;
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+
+.tablecss{
+    font-weight: 200;
+}
+
+.tablecss th,.tablecss td {
+    border: 0.065vw solid rgb(255, 255, 255);
+    padding: 0.65vw;
+    text-align: center;
+  }
+
+.edu{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 1.5vw;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+
+.sname{
+    padding-top: 4vh;
+    font-size: 1.5vw;
+}
+
+.contact{
+    padding:10vh 0;
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-image: url("/Screenshot.png");
+}
+
+.head{
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+form{
+    margin-top: 10vh;
+    background-color: rgb(31, 26, 44);
+    padding: 7vh 7vw;
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+}
+
+.label{
+    font-size: 2vw;
+    padding-bottom: 2vh;
+}
+
+.in{
+    padding: 1vh 1.5vw;
+    background-color: rgb(23, 19, 34);
+    width: 29vw;
+    height: 5vh;
+    font-size: 2vw;
+    border: none;
+    color: white;
+}
+
+.int{
+    padding: 1vh 1.5vw;
+    background-color: rgb(23, 19, 34);
+    width: 40vw;
+    font-size: 2vw;
+    border: none;
+    color: white;
+}
+
+button{
+    margin-top: 3vh;
+    margin-left: 75%;
+    color:white;
+    border: none;
+    font-size: 2vw;
+    background-color: rgb(21, 21, 123);
+    padding: 1vh 1.5vw;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:80vw;
+    height: 50%;
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-between ;
+}
+
+.leftt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nam{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.short-desc{
+    font-size: 1vw;
+    text-align: left;
+}
+
+.right{
+    margin: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.links ul li{
+    padding: 0 0.2vw;
+}
+.e{
+    margin-left: 2.5vw;
+}
+
+
+
+.links ul li img{
+    width:2vw;
+    height: 2vw;
+}
