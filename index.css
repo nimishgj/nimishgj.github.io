@@ -136,7 +136,6 @@ nav ul li:hover,.logo div:hover{
 
 .line {
   margin-top: 3vh;
-  margin-left: 1.5vw;
   width: 4vw;
   height: 1.5vh;
   background-color: rgb(21, 21, 123);
@@ -159,11 +158,13 @@ nav ul li:hover,.logo div:hover{
 }
 
 .left {
-  width: 30vw;
+  background-color:rgba(30, 25, 46, 0.744);
+  width: 40vw;
   height: 60vh;
   display: flex;
   overflow-y: scroll;
   font-size: 1.5vw;
+  line-height: 4.5vh;
 }
 
 .skills {
@@ -221,6 +222,30 @@ nav ul li:hover,.logo div:hover{
 .explain {
   margin-top: 5vh;
   font-size: 1.4vw;
+}
+
+img{
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.download{
+  padding: 1vh 1.5vw;
+  width: fit-content;
+  background-color: rgb(19, 34, 88);
+  font-size: 1.7vw;
+  color: white;
+  font-weight: 600;
+  margin-top: 5vh;
+  border-radius: 5px;
+  box-shadow: 0 0 1vh rgb(19, 34, 88);
+  transition: 0.6s;
+  text-decoration: none;
+}
+
+.download:hover{
+  cursor: pointer;
+  padding: 1.5vh 2vw;
 }
 
 .link {
@@ -400,6 +425,7 @@ button{
     display: flex;
     flex-direction:row ;
     justify-content:space-between ;
+    border-bottom: 1px solid white;
 }
 
 .leftt{
