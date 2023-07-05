@@ -163,7 +163,7 @@ nav ul li:hover,.logo div:hover{
   width: 40vw;
   height: 60vh;
   display: flex;
-  overflow-y: scroll;
+  overflow-y: auto;
   font-size: 1.5vw;
   line-height: 4.5vh;
   text-align: justify;
