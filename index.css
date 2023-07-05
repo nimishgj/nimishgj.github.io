@@ -166,6 +166,7 @@ nav ul li:hover,.logo div:hover{
   overflow-y: scroll;
   font-size: 1.5vw;
   line-height: 4.5vh;
+  text-align: justify;
 }
 
 .skills {
